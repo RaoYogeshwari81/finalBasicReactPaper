@@ -1,6 +1,6 @@
 import React from "react";
 import { Form } from "react-router-dom";
-import ViewData from "./ViewData";
+import ViewForm from "./ViewForm";
 import Form from "./Form";
 
 const Component1=()=>{
@@ -9,7 +9,7 @@ const Component1=()=>{
         <Form />
       <br />
 
-      <ViewData />
+      <ViewForm />
        </div>
     )
 }
