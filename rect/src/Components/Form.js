@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../Action';
 
-const UserForm = () => {
+const Form = () => {
   const dispatch = useDispatch();
 
   const [name, setName] = useState('');
@@ -75,4 +75,4 @@ const UserForm = () => {
   );
 };
 
-export default UserForm;
+export default Form;
