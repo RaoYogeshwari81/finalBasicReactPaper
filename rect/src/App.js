@@ -5,15 +5,14 @@ import Header from "./Components/Header";
 import Form from "./Components/Form";
 import { Provider } from "react-redux";
 import store from "./Store";
+import find from "./Components/Find";
 
 function App() {
   return (
     <BrowserRouter>
       <Provider store={store}>
         <Routes>
-          <Route path="/" element={<Header />}>
-            <Route path="form" element={<Form />} />
-          </Route>
+        <Route path="/" element={< find/>} />
         </Routes>
       </Provider>
     </BrowserRouter>
