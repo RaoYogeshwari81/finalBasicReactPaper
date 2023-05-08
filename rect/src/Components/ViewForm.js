@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { deleteData } from "../Action/deleteData";
+import { deleteData } from "../Action/delData";
 import Pop from "./Pop";
 
 const ViewForm = () => {
